@@ -14,35 +14,35 @@ UH-GS is a robust Gaussian Splatting framework designed for unconstrained outdoo
 
 ## Qualitative Results
 
-### Dynamic Object Removal and Novel View Synthesis
+### Comparison with Scaffold-GS
 
 <table>
 <tr>
 <td align="center">
-<img src="assets/gifs/brandenburg.gif" width="420">
-<br><b>Brandenburg Gate</b>
+<b>Scaffold-GS (Brandenburg)</b><br>
+<img src="assets/scaffold-bra.gif" width="450">
 </td>
 
 <td align="center">
-<img src="assets/gifs/sacrecoeur.gif" width="420">
-<br><b>Sacre Coeur</b>
+<b>Scaffold-GS (Patio)</b><br>
+<img src="assets/scaffoldgs-patio.gif" width="450">
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="assets/gifs/trevi.gif" width="420">
-<br><b>Trevi Fountain</b>
+<b>UH-GS (Brandenburg)</b><br>
+<img src="assets/ours-bra.gif" width="450">
 </td>
 
 <td align="center">
-<img src="assets/gifs/pantheon.gif" width="420">
-<br><b>Pantheon Exterior</b>
+<b>UH-GS (Patio)</b><br>
+<img src="assets/ours-patio.gif" width="450">
 </td>
 </tr>
 </table>
 
-UH-GS effectively identifies unreliable observations and suppresses dynamic artifacts caused by pedestrians, vehicles, and transient occlusions, leading to cleaner geometry and higher-fidelity novel-view rendering.
+UH-GS effectively suppresses dynamic distractors and unreliable observations, producing cleaner geometry and higher-quality novel-view synthesis than Scaffold-GS in challenging outdoor scenes.
 
 ---
 
