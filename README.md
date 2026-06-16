@@ -20,12 +20,12 @@ UH-GS is a robust Gaussian Splatting framework designed for unconstrained outdoo
 <tr>
 <td align="center">
 <b>Scaffold-GS (Patio)</b><br>
-<img src="assets/scaffoldgs-patio .gif" width="450">
+<img src="assets/2.gif" width="450">
 </td>
   
 <td align="center">
 <b>UH-GS (Patio)</b><br>
-<img src="assets/ours-patio.gif" width="450">
+<img src="assets/1.gif" width="450">
 </td>
 </tr>
 </table>
