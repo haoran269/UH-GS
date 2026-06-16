@@ -7,7 +7,7 @@ Official implementation of **UH-GS: Uncertainty-guided Hierarchical Gaussian Spl
 UH-GS is a robust Gaussian Splatting framework designed for unconstrained outdoor scenes. By leveraging uncertainty estimation and hierarchical optimization, UH-GS effectively suppresses dynamic distractors and improves reconstruction quality under sparse-view and challenging real-world conditions.
 
 <p align="center">
-  <img src="assets/teaser.png" width="100%">
+  <img src="assets/15.png" width="100%">
 </p>
 
 ---
@@ -20,7 +20,7 @@ UH-GS is a robust Gaussian Splatting framework designed for unconstrained outdoo
 <tr>
 <td align="center">
 <b>Scaffold-GS (Patio)</b><br>
-<img src="assets/scaffoldgs-patio.gif" width="450">
+<img src="assets/scaffoldgs-patio .gif" width="450">
 </td>
   
 <td align="center">
