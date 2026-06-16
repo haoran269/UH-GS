@@ -34,47 +34,17 @@ UH-GS effectively suppresses dynamic distractors and unreliable observations, pr
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/haoran269/UH-GS.git
-cd UH-GS
-
-conda create -n uhgs python=3.10
-conda activate uhgs
-
-pip install -r requirements.txt
-```
-
-## Training
-
-```bash
-python train.py -s <dataset_path>
-```
-
-## Evaluation
-
-```bash
-python render.py -m <model_path>
-python metrics.py -m <model_path>
-```
-
 ## Dataset
 
-We evaluate UH-GS on:
+We evaluate UH-GS on the following public datasets:
 
-* Photo Tourism Dataset
-* On-the-Go Dataset
+- [Photo Tourism Dataset](https://www.cs.ubc.ca/~kmyi/imw2020/data.html)
+- [On-the-Go Dataset](https://rwn17.github.io/nerf-on-the-go/)
 
-Please follow the dataset instructions provided in the corresponding benchmark repositories.
+Please follow the dataset instructions provided on the corresponding dataset websites for downloading and preprocessing.
 
-## Citation
+## Status
 
-```bibtex
-@article{gao2026uhgs,
-  title={UH-GS: Uncertainty-guided Hierarchical Gaussian Splatting for Robust Outdoor Scene Reconstruction},
-  author={Gao, Haoran and others},
-  journal={...},
-  year={2026}
-}
-```
+🚧 The code is currently being organized and cleaned for public release.
+
+We will release the source code, pretrained checkpoints, and detailed instructions upon paper acceptance.
